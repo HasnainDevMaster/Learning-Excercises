@@ -24,4 +24,6 @@ guests.forEach((guest) => {
 
 // Clear the list by removing the last two names
 guests.splice(0, guests.length);
-console.log(guests);
+
+// Print the empty list
+console.log("Final guest list:",guests);
